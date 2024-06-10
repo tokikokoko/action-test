@@ -27,10 +27,10 @@ jobs:
           echo "gh run workflow"
       - name: Render summary
         run: |-
-        # Summary書き出し
-        echo "# Action summary" >> $GITHUB_STEP_SUMMARY
-        echo "## Example :rocket:" >> $GITHUB_STEP_SUMMARY
-        echo "" >> $GITHUB_STEP_SUMMARY
-        echo "[Link](https://example.com/$BUILD_ID)" >> $GITHUB_STEP_SUMMARY
-        echo "" >> $GITHUB_STEP_SUMMARY
+          # Summary書き出し
+          echo "# Action summary" >> $GITHUB_STEP_SUMMARY
+          echo "## Example :rocket:" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "[Link](https://example.com/$BUILD_ID)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
 
